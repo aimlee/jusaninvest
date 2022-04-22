@@ -1,0 +1,47 @@
+@import url(//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy);
+
+.risk-wrapper{
+    width: 318px;
+    height: 110px;
+    background: #F5F7FA;
+    border-radius: 12px;
+}
+.group-income{
+}
+.label-name{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #193048;
+}
+.year-income{
+    margin-top: -25px;
+    margin-left: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #A3ACB6;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 10px;
+}
+.column{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6C7B8A
+}
+.data{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #193048;
+}

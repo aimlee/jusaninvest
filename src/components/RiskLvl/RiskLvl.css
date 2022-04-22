@@ -1,0 +1,35 @@
+.risk-wrapper{
+    margin-left: 10px;
+    width: 318px;
+    height: 110px;
+    background: #F5F7FA;
+    border-radius: 12px;
+}
+
+.label-name{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px;
+    color: #193048;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.rectangle-block{
+    margin:0px 10px;
+}
+
+.battery-lvl{
+    display: flex;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #193048;
+}

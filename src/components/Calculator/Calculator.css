@@ -1,0 +1,128 @@
+
+.risk-wrapper-calculator{
+    margin:10px 10px;
+    width: 305px;
+    height: 310px;
+    background: #FFFFFF;
+    border: 1px solid #EDEEF0;
+    border-radius: 12px;
+}
+.label-name-calculator{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #193048;
+}
+
+#calculator-label{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6C7B8A;
+}
+
+.risk-wrapper-calculator{
+    padding-top:10px;
+    padding-left:10px;
+}
+
+.calculator-slider{
+    padding:10px 0px;
+    display: grid;
+}
+
+#calculator-value{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #193048;
+}
+
+#range-calculator{
+    width: 301px;
+    height: 4px;
+    -webkit-appearance: none;
+    background: #DADEE2;
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px #DADEE2;
+}
+#range-calculator::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #193048;
+    cursor: pointer;
+    border: 4px solid #333;
+    box-shadow: -407px 0 0 400px #193048;
+}
+.min-max-amount{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    justify-content: space-between;
+    color: #193048;
+}
+.year_radio_btn {
+    margin: 10px 5px;
+    display: inline-block;
+}
+.year_radio_btn input[type=radio] {
+    display: none;
+}
+.year_radio_btn label {
+    display: inline-block;
+    cursor: pointer;
+    border:1px solid;
+    border-radius: 25px;
+    padding: 5px 15px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #193048;
+    user-select: none;
+}
+
+/* Checked */
+.year_radio_btn input[type=radio]:checked + label {
+    padding: 5px 15px;
+    border:2px solid;
+    border-radius: 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #F05323;
+}
+#calculator-label-sum{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #193048;
+}
+#calculator-label-sum-value{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F05323;
+}

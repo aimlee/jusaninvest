@@ -1,0 +1,20 @@
+.wrapper-buy-pie{
+    background: #FFFFFF;
+    padding:10px;
+    box-shadow: 0px -1px 12px rgba(0, 0, 0, 0.08);
+}
+.btn-buy-pie{
+    width: 328px;
+    height: 40px;
+    left: 16px;
+    top: 16px;
+    border:none;
+    background: linear-gradient(90deg, #FF7253 0%, #F05323 100%);
+    border-radius: 6px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color:#FFFFFF;
+}

@@ -1,0 +1,41 @@
+.top-nav-bar {
+    margin: 10px 5px;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid #F5F7FA;
+    /* primary-white-FFFFFF */
+
+    background: #FFFFFF;
+}
+#label-name{
+    /* ✏️ Caption */
+    position: static;
+    width: 216px;
+    height: 22px;
+    left: calc(50% - 216px/2 + 20px);
+    bottom: 1px;
+
+    /* sf/body-bold-16 */
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+
+    /* light/grey-90-193048 */
+
+    color: #193048;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+}

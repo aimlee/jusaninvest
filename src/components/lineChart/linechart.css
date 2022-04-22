@@ -1,0 +1,101 @@
+@import url(//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy);
+
+#current-price{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* light/grey-90-193048 */
+
+    color: #193048;
+
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 10px 10px;
+}
+#current-price-difference{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    /* light/primary-green-8A9C1B */
+
+    color: #8A9C1B;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+#current-price-minus{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    /* light/primary-green-8A9C1B */
+
+    color: red;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.form_radio_btn {
+    display: inline-block;
+    margin: 10px 5px;
+}
+.form_radio_btn input[type=radio] {
+    display: none;
+}
+.form_radio_btn label {
+    font-family: 'Gilroy';
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6C7B8A;
+    user-select: none;
+}
+
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+    font-family: 'Gilroy';
+    padding: 5px 15px;
+    background: #EDEEF0;
+    border-radius: 20px;
+    border: none;
+    color: #193048;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#group-button{
+    margin-left: 10px;
+}
